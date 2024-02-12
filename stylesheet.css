@@ -1,15 +1,15 @@
 body {
-  background-color: rgb(134, 38, 51); /* Set the background color of the whole page */
-  margin: 0; /* Remove default body margin */
-  padding: 0; /* Remove default body padding */
+  background-color: rgb(134, 38, 51);
+  margin: 0;
+  padding: 0;
 }
 
 .button {
-  background-color: #fff; /* Change button background color to white */
-  color: rgb(245, 244, 244); /* Change button text color */
+  background-color: #fff;
+  color: rgb(245, 244, 244);
   text-align: center;
   padding: 10px 15px;
-  border: 0.5px solid black; /* Add an outline */
+  border: 0.5px solid black;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -19,42 +19,51 @@ body {
 h1 {
   text-align: center;
   font-size: 50px;
-  color: #fff; /* Change text color to white */
+  color: #fff;
   text-decoration: underline;
 }
 
 .banner {
-  position: relative; /* Ensure the banner acts as a container for its contents */
-  height: 200px; /* Adjust the height as needed */
-  background-color: rgba(134, 38, 51, 0.5); /* Example: semi-transparent background color */
+  position: relative;
+  height: 200px;
+  background-color: rgba(134, 38, 51, 0.5);
 }
 
 .banner img {
-  width: 100%; /* Ensure the image fills the entire banner */
-  height: 348px; /* Maintain aspect ratio */
+  width: 100%;
+  height: 348px;
 }
 
 .banner h1 {
-  position: absolute; /* Position the title inside the banner */
-  top: 20%; /* Adjust the vertical position */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Center the title precisely */
-  color: rgb(23, 166, 174); /* Text color */
-  z-index: 2; /* Ensure the title is on top of the buttons */
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(23, 166, 174);
+  z-index: 2;
 }
 
 .button-container {
-  position: absolute; /* Position the buttons inside the banner */
-  bottom: 20px; /* Adjust as needed */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center the buttons horizontally */
-  z-index: 1; /* Ensure the buttons are behind the title */
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 .button-container .button {
-  margin: 0 5px; /* Add spacing between buttons */
-  background-color: rgb(94, 94, 94); /* Set button background color to white */
-  color: rgb(23, 166, 174); /* Set button text color */
-  border: 0.5px solid black; /* Add an outline */
+  margin: 0 5px;
+  background-color: rgb(94, 94, 94);
+  color: rgb(23, 166, 174);
+  border: 0.5px solid black;
   border-radius: 5px;
+}
+
+.custom-paragraph {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
 }
